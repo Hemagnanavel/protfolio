@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  line-height: 150%;
+
+}
+
+.left {
+  float: left;
+  width: 33.333%;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+}
+
+.pic {
+  position: relative;
+}
+
+.Profile {
+  position: absolute;
+  top: 200px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.p1 {
+  font-size: 16px;
+  color: #757575;
+}
+
+.p2 {
+  font-size: 15px;
+}
+
+.h2 {
+  font-size: 28px;
+  color: #757575;
+
+}
+
+.h3 {
+
+  font-size: 18px;
+  color: black;
+  opacity: 0.60;
+}
+
+
+.content {
+  margin-left: 15px;
+  border-left: 1px solid #d4d4d4;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.progress-container {
+  height: 24px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progress {
+  height: 24px;
+  border-radius: 10px;
+  background-color: hsl(167, 80%, 30%);
+}
+
+.progress1 {
+  height: 20px;
+  border-radius: 10px;
+  background-color: #009688;
+}
+
+.navleft {
+  background-color: white;
+  height: 100%;
+  width: 350px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 20px;
+
+}
+
+.navright {
+  background-color: white;
+  height: 550px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+
+.box {
+  background-color: #009688;
+  border-radius: 5px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+.date {
+  color: #009688;
+  font-size: 16px;
+}
+
+.footer {
+  padding: 40px 20px;
+  background-color: #009688;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width:1025px) {
+  .pic img {
+    width: 50%;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .pic img {
+    width: 200px;
+  }
+}
+@media  and (max-width:1700px){
+  .pic img{
+    width: 250px;
+  }  
+  }
+
+@media and (max-width:1500px) {
+  .pic img {
+    width: 200px;
+  }
+}
+
+@media and (max-width:1310px) {
+  .pic img {
+    width: 230px;
+  }
+}
